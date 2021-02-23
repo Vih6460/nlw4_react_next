@@ -1,0 +1,26 @@
+Para criar um projeto react utilizando o template typescript
+*Usando Npm
+    1. npx create-react-app moveit --template=typescript
+    2.npm start
+*Usando yarn
+    1. yarn create react-app moveit --template=typescript
+    2.yarn start
+
+Para criar um projeto react utilizando next.js
+    npx create-next-app moveit-next
+    trocar as extensões das pages para tsx (typescript)
+    instalar o typescript com essas dependências abaixo
+    npm add typescript @types/react @types/react-dom @types/node -D
+    yarn dev              
+
+SPA: Single Page Aplication
+    (create react app, Next.js)
+    Basicamente é uma página só que vai trocando somente seus componentes
+
+SSR: Server Side Rendering
+    (Next.js)
+    Quando o Next.js se responsabiliza por levar pro usuário, o conteúdo front end, se comunicar com o back end e gerar relevãncia para o seo
+
+SSG: Static Side Generation
+    (Gatsby, Next.js)
+    O Next.js guarda uma versão da aplicação por determinado tempo para não ser preciso acessar o bd a cada visita quando não houve alterações
