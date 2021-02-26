@@ -7,6 +7,8 @@
     width: 5.5rem;
     height: 5.5rem;
     border-radius: 50%;
+
+    box-shadow: var(--sombra-perfil);
 }
 
 .profileContainer div {
@@ -18,12 +20,15 @@
 .profileContainer div strong {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--title);
+    color: var(--white);
+    text-shadow: var(--sombra-texto);
 }
 
 .profileContainer div p {
     font-size: 1rem;
     margin-top: 0.5rem;
+    color: var(--white);
+    text-shadow: var(--sombra-texto);
 }
 
 .profileContainer div img {

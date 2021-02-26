@@ -5,17 +5,21 @@
 }
 
 :root {
-    --white: #fff;
-    --background: #f2f3f5;
+    --white: whitesmoke;
+    --background: rgb(6, 0, 20);
     --gray-line: #dcdde0;
     --text: #666666;
     --text-highlight: #b3b9ff;
     --title: #2e384d;
-    --red: #e83f5b;
+    --red: #ff2525;
     --green: #4cd62b;
-    --blue: #5965e0;
-    --blue-dark: #4953b8;
+    --blue: #4855e0;
+    --blue-dark: #3f49b6;
     --blue-twitter: #2aa9e0;
+
+    --sombra: 0 0 60px rgba(255, 255, 255, 0.3);
+    --sombra-perfil: 0px 0px 12.5px rgb(255, 255, 255);
+    --sombra-texto: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media(max-width: 1080px){
@@ -36,7 +40,7 @@ body {
 }
 
 body, input, textarea, button {
-    font: 400 16rem "Inter", sans-serif;
+    font: 400 1.6rem "Inter", sans-serif;
 }
 
 button {

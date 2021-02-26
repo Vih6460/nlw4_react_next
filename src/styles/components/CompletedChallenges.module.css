@@ -3,17 +3,22 @@
     align-items: center;
     justify-content: space-between;
 
-    margin: 3.5rem 0;
+    margin: 2rem 0 3rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #d7d8da;
+    border-bottom: 1px solid #ffffff;
+    border-bottom-style: dashed;
 
     font-weight: 500;
 }
 
 .completedChallengesContainer span:first-child{
     font-size: 1.25rem;
+    color: var(--white);
+    text-shadow: var(--sombra-texto);
 }
 
 .completedChallengesContainer span:last-child{
     font-size: 1.5rem;
+    color: var(--white);
+    text-shadow: var(--sombra-texto);
 }
