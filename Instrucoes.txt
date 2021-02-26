@@ -8,10 +8,47 @@ Para criar um projeto react utilizando o template typescript
 
 Para criar um projeto react utilizando next.js
     npx create-next-app moveit-next
-    trocar as extensões das pages para tsx (typescript)
-    instalar o typescript com essas dependências abaixo
+Trocar as extensões das pages para tsx (typescript)
+Instalar o typescript com essas dependências abaixo
     npm add typescript @types/react @types/react-dom @types/node -D
-    yarn dev              
+Para rodar a aplicação em localhost
+    yarn dev   
+
+
+
+Para utilizar cookies => yarn add js-cookies
+Para adicionar as tipagens dos cookies => yarn add @types/js-cookie     
+
+Para fazer deploy primeiro precisa instalar a cli da vercel no seu pc
+    npm i -g vercel
+Verificar se ja tem disponível
+    vercel -h
+
+Fazer login via terminal na vercel para fazer o deploy
+    vercel login
+
+Para fazer o primeiro deplo é simplesmente digitar vercel no terminal
+e depois os próximos deploys vai ser gerado um link de teste para ver se esta tudo funcional
+e se estiver tudo certinho basta depois digitar no terminal vercel--prod
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 SPA: Single Page Aplication
     (create react app, Next.js)
